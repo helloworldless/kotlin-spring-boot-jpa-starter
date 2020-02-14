@@ -8,6 +8,8 @@
     1. `GET /relation`
     1. `POST /relation?parent=<parentId>&child=<childId>`
     1. `DELETE /relation`
+1. Supports seeding an arbitrary number of relations:
+    `POST /seed/{count}`
     
 ## Build
 Run `./gradlew build`
