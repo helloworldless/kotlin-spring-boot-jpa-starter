@@ -1,4 +1,4 @@
-package com.davidagood.dbloadtesting
+package com.davidagood.kotlinspringbootjpa
 
 import org.springframework.data.jpa.repository.JpaRepository
 

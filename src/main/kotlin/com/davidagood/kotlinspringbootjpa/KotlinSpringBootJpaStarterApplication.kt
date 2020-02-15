@@ -1,11 +1,11 @@
-package com.davidagood.dbloadtesting
+package com.davidagood.kotlinspringbootjpa
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DatabaseLoadTestingApplication
+class KotlinSpringBootJpaStarterApplication
 
 fun main(args: Array<String>) {
-	runApplication<DatabaseLoadTestingApplication>(*args)
+	runApplication<KotlinSpringBootJpaStarterApplication>(*args)
 }

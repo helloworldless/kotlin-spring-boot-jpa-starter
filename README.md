@@ -1,8 +1,8 @@
-# Database Load Testing
+# Kotlin + Spring Boot + JPA Starter
 
 ## Running Locally
 1. Make sure Postgres is running locally with default settings (see instructions below)
-1. Run `com/davidagood/dbloadtesting/DatabaseLoadTestingApplication.kt` or run `./gradlew bootRun`
+1. Run `com/davidagood/kotlinspringbootjpa/KotlinSpringBootJpaStarterApplication.kt` or run `./gradlew bootRun`
 1. Starts @ [http://localhost:8080](http://localhost:8080)
 1. Supports basic CRUD operations:
     1. `GET /relation`
@@ -16,9 +16,9 @@ Run `./gradlew build`
 
 ## Running Postgres with Docker
 
-- `docker run -d --name db-load-test -v db-load-test-data:/var/lib/postgresql/data -p 5432:5432 postgres:latest`
-- `docker logs -f db-load-test`
-- `docker exec -it db-load-test psql -U postgres`
+- `docker run -d --name kotlin-sb-jpa-starter -v kotlin-sb-jpa-starter-data:/var/lib/postgresql/data -p 5432:5432 postgres:latest`
+- `docker logs -f kotlin-sb-jpa-starter`
+- `docker exec -it kotlin-sb-jpa-starter psql -U postgres`
     - `\l` to list databases
     - `CREATE DATABASE test;`
     - `\c test` to change to `test` database

@@ -1,1 +1,1 @@
-rootProject.name = "database-load-testing"
+rootProject.name = "kotlin-spring-boot-jpa-starter"

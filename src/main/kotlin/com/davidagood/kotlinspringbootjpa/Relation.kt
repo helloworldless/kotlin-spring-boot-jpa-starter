@@ -1,4 +1,4 @@
-package com.davidagood.dbloadtesting
+package com.davidagood.kotlinspringbootjpa
 
 import java.time.OffsetDateTime
 import java.time.ZoneId
